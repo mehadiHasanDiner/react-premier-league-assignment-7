@@ -9,7 +9,7 @@ const Player = (props) => {
     return (
         <div className ="player-container">
             <div className ="player-info">
-            <h4> Cricketer Name : {name} </h4>
+            <h4> Cricketer's Name : {name} </h4>
             <img src={image} alt=""/>
             <h5> Salary : {salary} </h5>
             <button onClick = {() => handlePlayerAdd(props.info)} className ="btn btn-success"><FontAwesomeIcon icon={faUserCheck} /> Hair {name}</button>
